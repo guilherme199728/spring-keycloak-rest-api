@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.3'
+    implementation 'org.keycloak:keycloak-spring-boot-starter:15.0.0'
+    implementation 'org.keycloak.bom:keycloak-adapter-bom:15.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.3'
+}
+
+test {
+    useJUnitPlatform()
+}
