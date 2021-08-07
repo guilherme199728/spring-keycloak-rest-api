@@ -6,7 +6,7 @@ Projeto para exemplificar como autenticar com keycloak
 
 ## 1 - Instalação
 
-Baixe o keycloak e rode local na sua maquina https://www.keycloak.org/getting-started/getting-started-zip
+Baixe o keycloak e execule local https://www.keycloak.org/getting-started/getting-started-zip
 
 ## 2 - Configuração do keycloak
 
